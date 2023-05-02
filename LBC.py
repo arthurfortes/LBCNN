@@ -3,9 +3,8 @@ from scipy.stats import bernoulli
 import joblib
 import numpy as np
 import tensorflow as tf
-import keras
-from keras.layers import Conv2D
-from keras import backend as K
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras import backend as K
 from tensorflow.keras.layers import Layer
 
 # Non-trainable filters initialized with distribution
